@@ -36,8 +36,7 @@ public class ReplaySystem : MonoBehaviour{
 
 	}
 
-	void Record ()
-	{
+	void Record (){
 		rigidBody.isKinematic = false;
 		int frame = Time.frameCount % bufferFrames;
 		float time = Time.time;
